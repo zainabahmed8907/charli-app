@@ -1,0 +1,9 @@
+@import "../../../assets/styles/_colors.sass";
+
+#conversation-list {
+  grid-area: conversation-list;
+  height: 100vh;
+  overflow: auto;
+  //   background: $primary-color;
+  // overflow-y: scroll;
+}

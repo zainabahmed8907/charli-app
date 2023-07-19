@@ -1,0 +1,160 @@
+.event-container {
+  height: 100vh;
+  background-color: aquamarine;
+  z-index: 1;
+  position: relative;
+  margin-top: -210px;
+  max-width: 400px;
+}
+.outline-desc {
+  font-size: 16px;
+  font-weight: 600;
+}
+.drawer {
+  overflow-x: auto;
+}
+#desc-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  color: #575a60;
+}
+.description-box {
+  border: 1px solid #d8d6de;
+  border-radius: 6px;
+  padding: 5px;
+}
+.description-box > ul li {
+  font-size: 14px;
+  font-weight: bold;
+}
+#event-title {
+  font-weight: 600;
+}
+
+#chapter {
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 14px;
+}
+label {
+  font-weight: 600;
+  font-size: 13px;
+}
+.input {
+  border-radius: 7px;
+  border: 1px solid #d8d6de;
+  width: 320px;
+  padding: 7px;
+}
+#labelInput,
+#dueDate {
+  width: 100%;
+  border-radius: 7px;
+  border: 1px solid #d8d6de;
+  padding: 7px;
+}
+
+.attachment {
+  width: 100%;
+  border-radius: 7px;
+  border: 1px solid #d8d6de;
+  padding: 7px;
+}
+.fileName {
+  font-weight: 600;
+}
+.fileSize {
+  font-size: 12px;
+}
+.buttons-container button:nth-child(1) {
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 30px;
+}
+.buttons-container button:nth-child(2) {
+  border: 1px solid blue;
+  color: blue;
+  width: 200px;
+  height: 30px;
+}
+.artwork {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.artwork button {
+  text-align: center;
+  border-radius: 7px;
+  height: 40px;
+  width: 80px;
+  margin-left: 35px;
+}
+.artworkContainer{
+  display: flex;
+}
+
+.change_book {
+  text-align: center;
+  font-weight: bold;
+}
+.book-select{
+  
+}
+.new_book_upload {
+  border: 1px dashed black;
+  height: 70px;
+  border-radius: 7px;
+}
+#upload {
+  justify-content: space-between;
+}
+#upload > button {
+  border: none;
+  border-radius: 7px;
+  background-color: #ebe9f1;
+  padding: 10px;
+  width: 50px;
+}
+.upload_btns {
+  display: flex;
+  justify-content: space-around;
+}
+.upload_btns button {
+  width: 120px;
+  text-align: center;
+  border-radius: 7px;
+  height:35px;
+  border: none;
+}
+.upload_btns>button:nth-child(1) {
+  background-color: #ebe9f1;
+}
+.upload_btns>button:nth-child(2){
+  background-color: black;
+  color: white;
+}
+.chapterModal .ant-modal-footer{
+  display: none;
+} 
+.cardModal .ant-modal-footer{
+  display: none;
+} 
+
+.todo-btn{
+  background-color: #d8d6de;
+  border: none;
+  border-radius: 20px;
+  color: #575a60;
+}
+#checkbox-group > .ant-checkbox-group{
+  display: flex !important;
+  flex-direction: column;
+}
+#checkbox-group .ant-checkbox-checked .ant-checkbox-inner{
+  background-color: black;
+  border-color: black;
+}

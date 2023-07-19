@@ -1,0 +1,15 @@
+@import "../../assets/styles/variable.css";
+@import "../../assets/fonts/styles.css";
+
+#chat-message-list {
+  position: relative;
+  grid-area: chat-message-list;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 20px 32px 48px 16px;
+  overflow-y: scroll;
+  background: var(--chat-background);
+  overflow: auto;
+  height: 100vh;
+  // height: 64vh;
+}

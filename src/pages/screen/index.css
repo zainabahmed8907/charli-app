@@ -1,0 +1,142 @@
+@import "../../assets/styles/variable.css";
+@import "../../assets/fonts/styles.css";
+
+body {
+  overflow-y: auto;
+}
+.dashboard-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  margin: 30px 0 0 0;
+  min-height: 180px;
+}
+
+.calender-card {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: var(--blue);
+  margin: 30px 0 0 0;
+  min-height: 180px;
+}
+
+.display-flex {
+  display: flex;
+}
+.victory-label {
+  position: relative;
+  z-index: -1;
+}
+.victory-label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 100%;
+}
+
+.fade-in-animation {
+  animation: fadeIn 1.2s;
+}
+.fade-in-alternate {
+  animation: alternatefadeIn 1.2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes alternatefadeIn {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.onboarding-text {
+  font-family: "Manrope Medium";
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0em;
+  width: 360px;
+  display: block;
+  margin: auto;
+  padding-top: 12px;
+}
+.edit-btn,
+.add-btn {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+}
+.edit-modal {
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 300px;
+}
+.drop-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.ant-drawer-header {
+  background-color: #f8f8f8;
+}
+.calendar-col-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 796.7px;
+}
+
+#productivity-image {
+  margin-top: 300px;
+}
+.filter-list {
+  list-style: none;
+  padding: 10px;
+}
+.filter-list li span {
+  text-decoration: underline;
+  font-weight: 800;
+  font-size: 15px;
+}
+.filter-list li {
+  margin-bottom: 10px;
+}
+.first .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: red;
+  border-color: red;
+}
+.second .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: rgb(127, 244, 127);
+  border-color: rgb(119, 222, 119);
+}
+.third .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: purple;
+  border-color: purple;
+}
+.gray .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #575a60;
+  border-color: #575a60;
+}
+/* .dashboard_modal .ant-modal-body {
+min-height: 600px;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+} */

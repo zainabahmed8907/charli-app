@@ -1,0 +1,14 @@
+.deletimg {
+  border: none;
+  background-color: #f8f8f8;
+  color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 30px;
+  background-color: red;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+}

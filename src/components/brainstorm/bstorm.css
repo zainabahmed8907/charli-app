@@ -1,0 +1,137 @@
+.brainstorm-rounds-heading,
+.ts-heading {
+  font-weight: 600;
+  font-size: 16px;
+}
+.bs-rounds-list > ul {
+  list-style: none;
+}
+.bs-rounds-list > ul li {
+  padding: 7px;
+  font-size: 16px;
+  margin-left:-38px;
+}
+
+
+
+.ant-checkbox-inner {
+  background-color: #93cd85;
+  border-color: #93cd85;
+}
+.transcript-desc-container--p1 p,
+.transcript-desc-container--p2 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+
+  letter-spacing: -0.02em;
+}
+.ts-time {
+  letter-spacing: -0.02em;
+  color: #575a60;
+  font-size: 14px;
+
+  mix-blend-mode: normal;
+}
+.time-scale {
+  height: 150px;
+  width: 100%;
+  border-radius: 7px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#time-scale-green {
+  background: linear-gradient(135.72deg, #a2d249 1.23%, #388d44 100%);
+}
+#time-scale-blue {
+  background: linear-gradient(135.72deg, #2db6f5 1.23%, #00519b 100%);
+}
+
+.seconds-scale {
+  padding: 10px;
+  width:900px;
+  position: relative;
+  left: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+.seconds-scale li {
+  font-size: 8px;
+  color: white;
+  padding-right: 8px;
+  
+}
+
+.seconds-scale li:has(span) {
+  font-size: 13px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.wrapper button {
+  background-color: transparent;
+  color: green;
+  border: 5px solid white;
+  border-radius: 13px;
+  padding: 5px;
+}
+#re-record,
+#delete {
+  font-size: 12px;
+  background-color: transparent;
+  text-decoration: underline;
+  border: none;
+  color: white;
+}
+#round {
+  font-size: 12px;
+  color: white;
+  text-decoration: underline;
+}
+.timer {
+  display: flex;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.timer span {
+  position: static;
+  z-index: 1;
+}
+.br-list-line{
+  border: 1px solid #EBE9F1;
+align-self: stretch;
+  width: 1px;
+  height: 400px;
+  margin-right: 30px;
+}
+.add-rounds{
+  margin-top: -10px;
+}
+#another-round:checked{
+  background-color: grey !important;
+  border-color: grey !important;
+  fill: #575a60;
+}
+@media screen and (max-width:600px){
+  .audio-buttons{
+    display: flex;
+  }
+  .wrapper button{
+    padding: 2px;
+  }
+}
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(-160px);
+  }
+}

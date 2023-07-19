@@ -1,0 +1,32 @@
+.display-flex {
+    display: flex !important;
+    align-items: center;
+}
+.sidebar-container {
+    padding: 40px 60px !important;
+}
+.mb-110px {
+    margin-bottom: 110px;
+}
+.mt-48px {
+    margin-top: 48px;
+}
+body{
+    overflow-y: auto;
+}
+
+.logout {
+    border: none;
+    color: blue;
+    background-color: transparent;
+    transform: all .2s;
+}
+.location_name{
+    font-weight: bold;
+    font-size: 18px;
+    text-transform:capitalize;
+    color:#1890fF;
+}
+#profile_image{
+    border-radius: 50%;
+}

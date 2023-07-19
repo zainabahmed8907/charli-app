@@ -1,0 +1,82 @@
+@import "../../assets/styles/_colors.sass";
+@import "../../assets/styles/variable.css";
+@import "../../assets/fonts/styles.css";
+
+$message-time-color: darken($accent-color, 46.5%);
+$speech-bubble-border-color: darken($accent-color, 13.18);
+
+.message-row {
+  display: grid;
+  grid-template-columns: 70%;
+  margin-bottom: 20px;
+
+  > .message-content {
+    display: grid;
+
+    > img {
+      border-radius: 100%;
+      grid-row: span 2;
+      width: 35px;
+      height: 35px;
+    }
+
+    > .message-time {
+      font-size: 1rem;
+      color: $message-time-color;
+    }
+
+    > .message-text {
+      padding: 9px 14px;
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+      position: relative;
+    }
+  }
+
+  &.you-message {
+    justify-content: end;
+
+    > .message-content {
+      justify-items: end;
+      display: flex;
+      justify-content: flex-end;
+
+      > .message-text {
+        background: $linear-blue;
+        // color: $contrasted-primary-text;
+        // border: 1px solid $primary-color;
+        border-radius: 5px;
+        color: var(--card-border);
+        // border: 1px solid $speech-bubble-border-color;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  &.other-message {
+    justify-items: start;
+
+    > .message-content {
+      grid-template-columns: 48px 1fr;
+      grid-column-gap: 15px;
+
+      > .message-text {
+        position: relative;
+        background: #ffffff;
+        border-radius: 5px;
+        color: var(--primary-color);
+        // border: 1px solid $speech-bubble-border-color;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+}

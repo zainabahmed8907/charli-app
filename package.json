@@ -1,0 +1,86 @@
+{
+  "name": "Charlie App",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@firebase/firestore": "^3.10.0",
+    "@fullcalendar/core": "^6.1.4",
+    "@fullcalendar/daygrid": "^6.1.4",
+    "@fullcalendar/interaction": "^6.1.4",
+    "@fullcalendar/react": "^6.1.4",
+    "@fullcalendar/timegrid": "^6.1.4",
+    "@reduxjs/toolkit": "^1.9.2",
+    "@sarafhbk/react-audio-recorder": "github:sarafhbk/react-audio-recorder",
+    "@tanstack/react-query": "^4.28.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.16.6",
+    "antd-weekly-calendar": "^1.1.2",
+    "apexcharts": "^3.27.1",
+    "apisauce": "^2.1.6",
+    "axios": "^1.3.2",
+    "compass-sass-mixins": "^0.12.7",
+    "dayjs": "^1.11.7",
+    "firebase": "^9.18.0",
+    "install": "^0.13.0",
+    "lodash": "^4.17.21",
+    "lodash.get": "^4.4.2",
+    "lodash.isempty": "^4.4.0",
+    "mic-recorder-to-mp3": "^2.2.2",
+    "moment": "^2.29.4",
+    "node-sass": "^7.0.3",
+    "query-string": "^8.1.0",
+    "react": "^17.0.2",
+    "react-apexcharts": "^1.3.9",
+    "react-audio-voice-recorder": "^1.0.4",
+    "react-circular-progressbar": "^2.1.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-countdown-circle-timer": "^3.1.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.7.1",
+    "react-media-recorder": "^1.6.6",
+    "react-moment": "^1.1.3",
+    "react-query": "^3.39.2",
+    "react-redux": "^8.0.5",
+    "react-resizable": "^3.0.5",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "4.0.3",
+    "react-tiny-popover": "^7.2.4",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.0",
+    "tippy.js": "^6.3.7",
+    "victory": "^36.6.8",
+    "victory-chart": "^36.6.8",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "resolutions": {
+    "//": "See https://github.com/facebook/create-react-app/issues/11773",
+    "react-error-overlay": "6.0.9"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

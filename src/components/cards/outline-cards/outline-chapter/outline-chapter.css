@@ -1,0 +1,54 @@
+
+#tag {
+  width: 45px;
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+#app {
+  background: rgba(0, 207, 232, 0.12);
+
+  width: 45px;
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: center;
+  color: #00cfe8;
+  font-weight: 600;
+}
+
+#desc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+.avatars {
+  width: 100%;
+}
+.img-frame {
+  outline: 4px solid white;
+  border-radius: 100px;
+}
+.img-frame>img{
+  max-width: 30px;
+}
+.avatars img {
+  border-radius: 100px;
+}
+#cardphoto {
+  min-width: 200px !important;
+}
+.card-icons {
+  width: 200px;
+}
+.card-icons>div{
+  position: relative;
+}
+#attachmenticon {
+  top: 10% !important;
+  position: absolute;
+
+}
+#sent{
+  top: -20px !important;
+}

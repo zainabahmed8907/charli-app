@@ -1,0 +1,28 @@
+@import "../../assets/styles/_colors.sass";
+
+$chat-title-shadow: darken($accent-color, 75.29);
+
+#chat-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // background: $accent-color;
+  color: $primary-color;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 0 10px 0 0;
+  box-shadow: 0 1px 3px -1px $shadow-box-color;
+  padding: 16px;
+  z-index: 1;
+  .title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--dull-black);
+  }
+  img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,220 @@
+.events {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border-radius: 10px;
+  width: 100px;
+}
+.events div:first-child {
+  background: rgba(40, 199, 111, 0.12);
+}
+.events .ant-badge-status {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notes-month {
+  font-size: 28px;
+  text-align: center;
+}
+.notes-month section {
+  font-size: 28px;
+}
+/* .ant-select {
+  display: none;
+} */
+.ant-radio-group {
+  display: none;
+}
+.ant-radio-button {
+  display: none;
+}
+.ant-picker-calendar-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -65px;
+}
+.ant-picker-calendar-year-select {
+  border: none;
+  margin-left: 20px;
+}
+.calendar-tabs {
+  margin-left: 70%;
+  padding: 12px;
+}
+.calendar-tabs .ant-tabs-nav {
+  border: 1px solid #3a5aff;
+  border-radius: 7px;
+  height: 50px;
+}
+.calendar-tabs .ant-tabs-tab-btn {
+  color: #3a5aff;
+}
+.calendar-tabs .ant-tabs-tab-active {
+  color: #3a5aff !important;
+  background: rgba(104, 93, 216, 0.2);
+}
+.tab-container {
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 16px;
+}
+.nav-pills {
+  border: 1px solid #3a5aff;
+  border-radius: 5px;
+}
+.nav-pills .nav-link.active {
+  color: #3a5aff;
+  background-color: #e9eaec;
+}
+.ant-picker-content thead {
+  border: 1px solid #e9eaec;
+}
+.ant-picker-content table {
+  border-spacing: 0;
+}
+.ant-picker-calendar-date {
+  border: 1px solid #e9eaec !important;
+  border-top: none;
+}
+.ant-picker-content thead th {
+  border: none;
+}
+#calendar-card .ant-card-body {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.calendar-months {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  height: 20px;
+  margin-top: -52px;
+}
+.calendar-months button {
+  margin-top: -30px;
+  font-size: 15px;
+  color: black;
+}
+.calendar-months button:nth-child(2) {
+  margin-left: -40px;
+}
+.current-month {
+  font-size: 16px;
+  font-weight: bold;
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-content {
+  overflow-y: hidden;
+}
+.ant-table-body {
+  max-height: 673.5px !important;
+}
+.weeklycalendar .ant-row-space-between {
+  margin-bottom: 0 !important;
+  margin-top: -38px !important;
+}
+.weeklycalendar .ant-table-wrapper {
+  height: 750px;
+}
+.weeklycalendar .ant-picker {
+  display: none;
+}
+.weeklycalendar .ant-btn {
+  border: none !important;
+  box-shadow: none !important;
+}
+.list-desc {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ebe9f1;
+}
+.filter-list {
+  list-style: none;
+  width: 50%;
+  padding: 10px;
+}
+.filter-list li {
+  display: flex;
+}
+.event-time {
+  font-weight: 400;
+  font-size: 14px;
+  color: #6e6b7b;
+}
+.event-badges {
+  margin-left: 150px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #6e6b7b;
+}
+.ant-list-item-meta-title {
+  padding: 8px;
+  background: #ebe9f1;
+}
+.ant-list-item {
+  border-bottom: none !important;
+  padding: 0 !important;
+}
+#blueCircle {
+  background: #7367f0;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+.business span {
+  text-decoration: underline;
+}
+.list-card {
+  min-height: 764px;
+  overflow-y: scroll;
+}
+.fc-today-button {
+  display: none !important;
+}
+.fc .fc-toolbar {
+  display: flex;
+  justify-content: flex-start !important;
+}
+.fc-prev-button {
+  background-color: transparent !important;
+  border: none !important;
+}
+.fc-next-button {
+  background-color: transparent !important;
+  border: none !important;
+}
+.fc-icon {
+  color: black !important;
+}
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-top: -50px;
+  width: 300px;
+}
+.fc-toolbar-title {
+  font-size: 1.2em !important;
+  margin-left: 20px !important;
+  font-weight: bold;
+}
+.event-title {
+  background-color: #ebe9f1;
+  padding: 10px;
+  font-weight: 800;
+}
+
+.weeklyCalendarbtn {
+  background-color: transparent;
+  font-weight: bolder;
+  font-size: 15px;
+  border: none;
+  
+}
+.weekName{
+  font-size: 17px;
+  font-weight: bold;
+
+}

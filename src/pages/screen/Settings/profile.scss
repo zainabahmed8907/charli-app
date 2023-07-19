@@ -1,0 +1,136 @@
+@import "../../../assets/styles/variable.css";
+@import "../../../assets/fonts/styles.css";
+
+.profile-container {
+  background-color: #ffffff;
+  border: 1px solid #ebe9f1;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 6px;
+  .setting-heading {
+    margin-bottom: 45px;
+  }
+  h1 {
+    font-weight: 900;
+  }
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+  border: 1px solid #ebe9f1;
+}
+
+.change {
+  background-color: #3a5aff;
+  letter-spacing: 0.6px;
+  margin-right: 15px;
+  font-size: 16px;
+  height: 45px;
+}
+.remove {
+  border-color: #3a5aff;
+  color: #3a5aff;
+  font-size: 16px;
+  height: 45px;
+}
+
+.setting-container h1 {
+  font-weight: 900;
+}
+
+.ant-avatar-lg {
+  width: 104px;
+  height: 104px;
+  border-radius: 50px;
+}
+.ant-badge-dot {
+  width: 18.66px;
+  height: 18.66px;
+  box-shadow: 0 0 0 4px #fff !important;
+}
+.h2-head {
+  font-weight: 600;
+}
+.badge-row {
+  margin-right: 30px;
+  font-size: 20px;
+}
+.label {
+  font-family: "Inter SemiBold";
+  font-weight: 500;
+  color: black;
+  margin-bottom: 5px;
+  display: block;
+}
+.ant-select-selector {
+  height: 40px !important;
+  align-items: center;
+  border-radius: 6px !important;
+  font-family: "Inter Regular";
+}
+
+.gutter-box {
+  padding: 8px 0;
+  background: #00a0e9;
+}
+
+.gutter-row {
+  margin-top: 30px;
+}
+.ant-input {
+  font-family: "Inter Regular";
+  font-weight: 400;
+  color: #575a60;
+}
+.input-field {
+  color: #575a60;
+}
+.ant-input-affix-wrapper {
+  padding: 0px 11px !important;
+  border-radius: 6px !important;
+}
+
+.ant-input-prefix {
+  margin-right: 8px;
+}
+.personal-image {
+  text-align: center;
+}
+.personal-image input[type="file"] {
+  display: none;
+}
+.personal-figure {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+.personal-avatar {
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out .3s;
+}
+.personal-avatar:hover {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.personal-figcaption {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  width: inherit;
+  height: inherit;
+  border-radius: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all ease-in-out .3s;
+}
+.personal-figcaption:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, .5);
+}
+.personal-figcaption > img {
+  margin-top: 32.5px;
+  width: 50px;
+  height: 50px;
+}

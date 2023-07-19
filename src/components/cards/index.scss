@@ -1,0 +1,178 @@
+@import "../../assets/styles/variable.css";
+
+.book-card-container {
+  width: 100%;
+  border-radius: 8px;
+  padding: 18px 24px;
+  // background: var(--card-background);
+  border: 1px solid var(--card-border);
+  margin-bottom: 12px;
+}
+
+.activity-log-container {
+  padding: 20px;
+}
+.divider {
+  height: 1px;
+  background-color: var(--divider-color);
+  width: 100%;
+}
+
+.date-container {
+  border-radius: 12px;
+  padding: 16px 0;
+  text-align: center;
+  width: 3.5em;
+  height: 3.5em;
+  background-color: var(--activity-log-date);
+}
+
+.trend-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  margin: 30px 0 0 0;
+  min-height: 180px;
+}
+.characterdropdown {
+  background: #eceff1;
+  border-radius: 99px;
+  color: #201f27;
+  height: 32px;
+  display: flex;
+  margin: 30px;
+  border: none;
+}
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropDiv {
+  margin: 17px 0 !important;
+}
+
+.Menu {
+  input {
+    width: 200px !important;
+  }
+  label {
+    color: #575a60;
+  }
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+  position: absolute !important;
+
+  min-width: 326px;
+}
+.ant-dropdown-menu-item:hover {
+  background-color: transparent !important;
+}
+.eventFirst {
+  background-color: #3c5ee2;
+  width: 184.59px;
+  border-radius: 4px 0px 0px 4px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+
+.outline {
+  background-color: #4882eb;
+  border-radius: 0px 6px 6px 0px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.check {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 8px;
+  background-color: #ebe9f1;
+}
+
+.outlineBox {
+  background-color: #ebe9f1;
+  border-radius: 8px;
+  padding: 10px;
+
+  margin-right: 10px;
+}
+
+.OutlineDiv {
+  display: flex;
+  margin-top: 10px;
+}
+
+.CharacterDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 6px 8px 8px 15px;
+  min-height: 40vh;
+}
+.edit > button,
+.delete-btn > button {
+  border: 0;
+  background-color: transparent;
+  width: 100%;
+}
+.delete-btn {
+  background-color: beige;
+  border-radius: 7px;
+}
+.edit {
+  background-color: beige;
+  border-radius: 7px;
+  margin-bottom: 12px;
+}
+.delete-btn .fa-times {
+  color: red;
+}
+.charName,
+.newEventbtn,
+.newChar {
+  border: 0;
+  border-radius: 20px;
+  background-color: #ebe9f1;
+  color: black;
+  font-size: 13px;
+  min-width: 170px;
+  padding: 8px;
+}
+.newCharBtn {
+  margin-top: 10%;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.caretIcon,
+.plusIcon {
+  top: -2px;
+  position: relative;
+}
+.eventDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  max-height: 200px;
+  font-size: 10px;
+  margin-top: 100px;
+  color: #eceff1;
+}
+.event-block {
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 12px;
+}
+.thin-text-13{
+  line-height: 1.9;
+}

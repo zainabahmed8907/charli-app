@@ -1,0 +1,29 @@
+:root {
+  --dull-black: #202127;
+  --selected-tab-color: #202127;
+  --unselected-tab-color: #8b8b8b;
+  --border-color: #8b8b8b4d;
+  --white: #ffffff;
+  --blue: #3a5aff;
+  --positive-color: #27ae60;
+  --negative-color: #eb5757;
+  --tag-color: #ff3742;
+  --primary-color: #201f27;
+  --secondary-color: #575a60;
+  --grey: #5c606b;
+  --activity-log-date: #ffdce5;
+  --divider-color: #e0e0e0;
+  --main-container-border: #e0e0e0;
+  --card-border: #ebe9f1;
+  --card-background: #f7f7f7;
+  --secondary-btn-background: #f7f7f7;
+  --secondary-btn-border: #a2a4a8;
+  --unselected-sidebar: #5c606b;
+  --selected-sidebar: #3a5aff;
+  --modal-mask: #00000010;
+  --hover-background: #f8f8f8;
+  --chat-background: #eaf7fc;
+  --light-purple: #7367f0;
+  --active-green: #28c76f;
+  --chat-background: #F7F7F7;
+}

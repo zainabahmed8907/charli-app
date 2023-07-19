@@ -1,0 +1,46 @@
+@import "../../assets/styles/_colors.sass";
+
+$input-border-color: darken($accent-color, 6.5%);
+$input-text-color: darken(adjust-hue($primary-color, -155), 23.33);
+$chat-form-top-border: darken($accent-color, 12.16);
+
+#chat-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-area: chat-form;
+  background-color: var(--white);
+  border-radius: 0 0 10px 0;
+  border-top: 1px solid $chat-form-top-border;
+  padding-left: 42px;
+  padding-right: 22px;
+  padding: 16px 38px 16px;
+
+  .chat-input-container {
+    display: flex;
+    width: 100%;
+    margin-right: 20px;
+    border: 1px dashed #ebe9f1;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+  input {
+    flex: 1 0 0;
+    outline: none;
+    // padding: 15px;
+    color: $input-text-color;
+    // border: 1px solid #ebe9f1;
+    border: none;
+    font-size: 12px;
+    // border-radius: 5px;
+    // font-size: 1.4rem;
+    margin-left: 15px;
+  }
+
+  button {
+    // height: 51px;
+    flex: 0 0 90px;
+    // border-radius: 0 6px 6px 0;
+  }
+}

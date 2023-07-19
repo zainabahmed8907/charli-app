@@ -1,0 +1,29 @@
+@import "../../../assets/styles/_colors.sass";
+@import "../../../assets/styles/variable.css";
+@import "../../../assets/fonts/styles.css";
+
+#search-container {
+  display: flex;
+  align-items: center;
+  grid-area: search-container;
+  background: var(--white);
+  padding: 16px;
+  border-radius: 10px 0 0 0;
+  box-shadow: 0 1px 3px -1px $shadow-box-color;
+  z-index: 1;
+  border-bottom: 2px solid #8b8b8b4d;
+  // background-color: #201f27;
+
+  input::placeholder {
+    color: #a2a4a8;
+    font-weight: 200;
+    // font-weight: bold;
+  }
+  .search-image {
+    grid-row: span 2;
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+    margin-right: 8px;
+  }
+}

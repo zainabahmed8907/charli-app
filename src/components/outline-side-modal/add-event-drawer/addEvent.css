@@ -1,0 +1,54 @@
+.eventList > ul > li {
+  list-style-type: none;
+  text-decoration: underline;
+  font-weight: 200;
+  line-height: 16.9px;
+}
+#attachments {
+  width: 320px;
+  border-radius: 7px;
+  border: 1px solid #d8d6de;
+  height: 35px;
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #3a5aff;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #3a5aff;
+
+  float: right;
+}
+.custom-file-upload::after {
+  content: "Browse";
+  color: white;
+}
+.shared {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  text-align: center;
+}
+.buttons-container button:nth-child(1) {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    height: 30px;
+
+    
+  }
+  .buttons-container button:nth-child(2) {
+    border: 1px solid blue;
+    color: blue;
+    width: 200px;
+    cursor: pointer;
+    height: 30px;
+
+  }
+  

@@ -1,0 +1,59 @@
+@import "../../assets/styles/variable.css";
+@import "../../assets/fonts/styles.css";
+
+.primary-ant-btn.ant-btn:hover,
+.primary-ant-btn.ant-btn:focus,
+.primary-ant-btn.ant-btn {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--white);
+  border-color: var(--primary-color);
+  background: var(--primary-color);
+  padding: 6px 78px 8px 28px;
+  height: 3em;
+}
+
+.secondary-ant-btn.ant-btn:hover,
+.secondary-ant-btn.ant-btn:focus,
+.secondary-ant-btn.ant-btn {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--primary-color);
+  background: var(--secondary-btn-background);
+  border: 1px solid var(--secondary-btn-border);
+  padding: 0 28px;
+  height: 3em;
+}
+
+.hyperlink-ant-btn.ant-btn:hover,
+.hyperlink-ant-btn.ant-btn:focus,
+.hyperlink-ant-btn.ant-btn {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 900;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--blue);
+  background: var(--white);
+  border: 1px solid var(--blue);
+  padding: 0 38px;
+  height: 2.8em;
+  border-radius: 10px;
+}
+
+.success-ant-btn.ant-btn:hover,
+.success-ant-btn.ant-btn:focus,
+.success-ant-btn.ant-btn {
+  font-size: 18px;
+  font-family: "Inter SemiBold";
+  letter-spacing: -0.5px;
+  line-height: 24px;
+  color: var(--white);
+  background: var(--blue);
+  border: 0;
+  height: 54px;
+  width: 315px;
+  border-radius: 12px;
+}

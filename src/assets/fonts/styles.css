@@ -1,0 +1,99 @@
+/* --------------------FONT_SIZE: 300-------------------- */
+@font-face {
+  font-family: "Inter Light";
+  font-style: normal;
+  src: local("Inter"), url("./Inter/Inter-Light.ttf") format("truetype");
+}
+
+/* --------------------FONT_SIZE: 400-------------------- */
+@font-face {
+  font-family: "Inter Regular";
+  font-style: normal;
+  src: local("Inter"), url("./Inter/Inter-Regular.ttf") format("truetype");
+}
+
+/* --------------------FONT_SIZE: 500-------------------- */
+@font-face {
+  font-family: "Inter Medium";
+  font-style: normal;
+  src: local("Inter"), url("./Inter/Inter-Medium.ttf") format("truetype");
+}
+
+/* --------------------FONT_SIZE: 600-------------------- */
+@font-face {
+  font-family: "Inter SemiBold";
+  font-style: normal;
+  src: local("Inter"), url("./Inter/Inter-SemiBold.ttf") format("truetype");
+}
+
+/* --------------------FONT_SIZE: 700-------------------- */
+@font-face {
+  font-family: "Inter Bold";
+  font-style: normal;
+  src: local("Inter"), url("./Inter/Inter-Bold.ttf") format("truetype");
+}
+
+/* --------------------FONT_SIZE: 800-------------------- */
+@font-face {
+  font-family: "Inter Extra Bold";
+  font-style: normal;
+  src: local("Inter"), url("./Inter/Inter-ExtraBold.ttf") format("truetype");
+}
+
+/* --------------------FONT_SIZE: 900-------------------- */
+@font-face {
+  font-family: "Inter Black";
+  font-style: normal;
+  src: local("Inter"), url("./Inter/Inter-Black.ttf") format("truetype");
+}
+
+
+
+
+/* --------------------------------------------------------------------------------MANROPE-------------------------------------------------------------------------------- */
+
+
+
+
+
+/* --------------------FONT_SIZE: 300-------------------- */
+@font-face {
+  font-family: "Manrope Light";
+  font-style: normal;
+  src: local("Manrope"), url("./Manrope/Manrope-Light.ttf") format("truetype");
+}
+
+/* --------------------FONT_SIZE: 400-------------------- */
+@font-face {
+  font-family: "Manrope Regular";
+  font-style: normal;
+  src: local("Manrope"), url("./Manrope/Manrope-Regular.ttf") format("truetype");
+}
+
+/* --------------------FONT_SIZE: 500-------------------- */
+@font-face {
+  font-family: "Manrope Medium";
+  font-style: normal;
+  src: local("Manrope"), url("./Manrope/Manrope-Medium.ttf") format("truetype");
+}
+
+/* --------------------FONT_SIZE: 600-------------------- */
+@font-face {
+  font-family: "Manrope SemiBold";
+  font-style: normal;
+  src: local("Manrope"), url("./Manrope/Manrope-SemiBold.ttf") format("truetype");
+}
+
+/* --------------------FONT_SIZE: 700-------------------- */
+@font-face {
+  font-family: "Manrope Bold";
+  font-style: normal;
+  src: local("Manrope"), url("./Manrope/Manrope-Bold.ttf") format("truetype");
+}
+
+/* --------------------FONT_SIZE: 800-------------------- */
+@font-face {
+  font-family: "Manrope Extra Bold";
+  font-style: normal;
+  src: local("Manrope"), url("./Manrope/Manrope-ExtraBold.ttf") format("truetype");
+}
